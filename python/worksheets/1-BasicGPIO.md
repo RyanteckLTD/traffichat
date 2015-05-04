@@ -92,9 +92,13 @@ Using GPIO pins on the Raspberry Pi requires us to run the python program as roo
 
 Start by clicking Build at the top toolbar at the top and then Set Build Commands and a box should pop up like the following.
 
+<img src = "sudo1.png"/>
+
 We want to change the execute command to use sudo python instead.
 
 Add sudo to the beginning and your box shuld now look like this.
+
+<img src = "sudo2.png"/>
 
 Now try re-running the program. The green LED should turn on.
 
