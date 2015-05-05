@@ -68,19 +68,19 @@
 .markdown-preview span.float-right { display: block; margin-left: 13px; overflow: hidden; float: right; }
 .markdown-preview span.float-right > span { display: block; overflow: hidden; margin: 13px auto 0px; text-align: right; }
 .markdown-preview code, .markdown-preview tt { margin: 0px 2px; padding: 0px 5px; border: 1px solid rgb(234, 234, 234); border-radius: 3px; text-shadow: none; background-color: rgb(248, 248, 248); }
-.markdown-preview pre.editor-colors { font-size: 13px; line-height: 19px; overflow: auto; padding: 6px 10px; border-radius: 3px; border: 1px solid rgb(224, 224, 225); background: rgb(250, 250, 250); }
+.markdown-preview pre.editor-colors { font-size: 16px; line-height: 19px; overflow: auto; padding: 6px 10px; border-radius: 3px; border: 1px solid rgb(17, 18, 22); background: rgb(39, 43, 51); }
 .markdown-preview kbd { border-radius: 2px; border-width: 1px; border-style: solid; border-color: rgb(221, 221, 221) rgb(204, 204, 204) rgb(204, 204, 204) rgb(221, 221, 221); padding: 1px 4px; line-height: 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-image: linear-gradient(rgb(241, 241, 241), rgb(221, 221, 221)); background-color: rgb(221, 221, 221); background-repeat: repeat-x; }
 .markdown-preview .emoji { height: 20px; width: 20px; }
-.markdown-preview { font-size: 1.25em; color: rgb(80, 81, 83); background-color: rgb(255, 255, 255); }
-.markdown-preview h1, .markdown-preview h2 { color: inherit; border-color: rgb(218, 219, 220); }
+.markdown-preview { font-size: 1.25em; color: rgb(57, 63, 75); background-color: rgb(241, 242, 244); }
+.markdown-preview h1, .markdown-preview h2 { color: inherit; border-color: rgb(197, 202, 211); }
 .markdown-preview a { color: rgb(20, 146, 255); }
-.markdown-preview hr { background-color: rgb(255, 255, 255); }
-.markdown-preview blockquote { color: rgb(80, 81, 83); border-left-color: rgba(80, 81, 83, 0.701961); }
-.markdown-preview table th, .markdown-preview table td { border-color: rgb(218, 219, 220); }
-.markdown-preview table th { background-color: rgb(255, 255, 255); }
-.markdown-preview table tr { background-color: rgb(255, 255, 255); }
-.markdown-preview table tr:nth-child(2n) { background-color: rgb(247, 247, 247); }
-.markdown-preview code { color: rgb(104, 106, 110); border-color: rgb(218, 219, 220); background-color: rgb(247, 247, 247); background-clip: padding-box; }
+.markdown-preview hr { background-color: rgb(241, 242, 244); }
+.markdown-preview blockquote { color: rgb(57, 63, 75); border-left-color: rgba(57, 63, 75, 0.701961); }
+.markdown-preview table th, .markdown-preview table td { border-color: rgb(197, 202, 211); }
+.markdown-preview table th { background-color: rgb(249, 250, 251); }
+.markdown-preview table tr { background-color: rgb(241, 242, 244); }
+.markdown-preview table tr:nth-child(2n) { background-color: rgb(232, 234, 237); }
+.markdown-preview code { color: rgb(79, 88, 104); border-color: rgb(197, 202, 211); background-color: rgb(229, 231, 235); background-clip: padding-box; }
 .markdown-preview pre.editor-colors::shadow .line.cursor-line { background-color: transparent; }
 .bracket-matcher .region {
   border-bottom: 1px dotted lime;
@@ -93,16 +93,16 @@
 
 pre.editor-colors,
 .host {
-  background-color: #fafafa;
-  color: #545454;
+  background-color: #272b33;
+  color: #abb2c0;
 }
 pre.editor-colors .line.cursor-line,
 .host .line.cursor-line {
-  background-color: rgba(56, 75, 112, 0.07);
+  background-color: rgba(153, 187, 255, 0.04);
 }
 pre.editor-colors .invisible,
 .host .invisible {
-  color: #545454;
+  color: #abb2c0;
 }
 pre.editor-colors .cursor,
 .host .cursor {
@@ -110,29 +110,29 @@ pre.editor-colors .cursor,
 }
 pre.editor-colors .selection .region,
 .host .selection .region {
-  background-color: #e5e5e6;
+  background-color: #3d4350;
 }
 pre.editor-colors .bracket-matcher .region,
 .host .bracket-matcher .region {
   border-bottom: 1px solid #528bff;
   box-sizing: border-box;
-  background-color: #eaeaeb;
+  background-color: #343944;
 }
 pre.editor-colors .invisible-character,
 .host .invisible-character {
-  color: rgba(84, 84, 84, 0.4);
+  color: rgba(171, 178, 192, 0.15);
 }
 pre.editor-colors .indent-guide,
 .host .indent-guide {
-  color: rgba(84, 84, 84, 0.4);
+  color: rgba(171, 178, 192, 0.15);
 }
 pre.editor-colors .wrap-guide,
 .host .wrap-guide {
-  background-color: rgba(84, 84, 84, 0.4);
+  background-color: rgba(171, 178, 192, 0.15);
 }
 pre.editor-colors .gutter .line-number,
 .host .gutter .line-number {
-  color: #969696;
+  color: #636e84;
   -webkit-font-smoothing: antialiased;
 }
 pre.editor-colors .gutter .line-number.git-line-removed:before,
@@ -146,13 +146,13 @@ pre.editor-colors .gutter .line-number.git-line-removed:after,
   left: 0px;
   bottom: 0px;
   width: 25px;
-  border-bottom: 1px dotted rgba(255, 20, 20, 0.5);
+  border-bottom: 1px dotted rgba(224, 82, 82, 0.5);
   pointer-events: none;
 }
 pre.editor-colors .gutter .line-number.cursor-line,
 .host .gutter .line-number.cursor-line {
-  color: #545454;
-  background-color: #efeff0;
+  color: #abb2c0;
+  background-color: #2b3039;
 }
 pre.editor-colors .gutter .line-number.cursor-line-no-selection,
 .host .gutter .line-number.cursor-line-no-selection {
@@ -160,11 +160,11 @@ pre.editor-colors .gutter .line-number.cursor-line-no-selection,
 }
 pre.editor-colors .gutter .line-number .icon-right,
 .host .gutter .line-number .icon-right {
-  color: #545454;
+  color: #abb2c0;
 }
 pre.editor-colors .gutter .line-number .icon-right,
 .host .gutter .line-number .icon-right {
-  color: #545454;
+  color: #abb2c0;
 }
 pre.editor-colors .gutter .line-number.folded,
 .host .gutter .line-number.folded,
@@ -172,185 +172,188 @@ pre.editor-colors .gutter .line-number:after,
 .host .gutter .line-number:after,
 pre.editor-colors .fold-marker:after,
 .host .fold-marker:after {
-  color: #545454;
+  color: #abb2c0;
 }
 .comment {
-  color: #7b7b79;
+  color: #5b626f;
   font-style: italic;
 }
 .entity.name.type {
-  color: #a58a03;
+  color: #e5c17c;
 }
 .entity.other.inherited-class {
-  color: #428b1c;
+  color: #97c378;
 }
 .keyword {
-  color: #a71cce;
+  color: #c679dd;
 }
 .keyword.control {
-  color: #a71cce;
+  color: #c679dd;
 }
 .keyword.operator {
-  color: #545454;
+  color: #abb2c0;
 }
 .keyword.other.special-method {
-  color: #1f51eb;
+  color: #61aeef;
 }
 .keyword.other.unit {
-  color: #893a01;
+  color: #d29b67;
 }
 .storage {
-  color: #a71cce;
+  color: #c679dd;
 }
 .constant {
-  color: #893a01;
+  color: #d29b67;
 }
 .constant.character.escape {
-  color: #0a8560;
+  color: #57b6c2;
 }
 .constant.numeric {
-  color: #893a01;
+  color: #d29b67;
 }
 .constant.other.color {
-  color: #0a8560;
+  color: #57b6c2;
 }
 .constant.other.symbol {
-  color: #0a8560;
+  color: #57b6c2;
 }
 .variable {
-  color: #bf1212;
+  color: #df6a73;
 }
 .variable.interpolation {
-  color: #b81332;
+  color: #be4f44;
 }
 .variable.parameter.function {
-  color: #545454;
+  color: #abb2c0;
 }
 .invalid.illegal {
-  background-color: #bf1212;
-  color: #fafafa;
+  background-color: #df6a73;
+  color: #272b33;
 }
 .string {
-  color: #428b1c;
+  color: #97c378;
 }
 .string.regexp {
-  color: #0a8560;
+  color: #57b6c2;
+}
+.string.regexp .source.ruby.embedded {
+  color: #ff8000;
 }
 .string.other.link {
-  color: #bf1212;
+  color: #df6a73;
 }
 .punctuation.definition.comment {
-  color: #7b7b79;
+  color: #5b626f;
 }
 .punctuation.definition.parameters,
 .punctuation.definition.array {
-  color: #545454;
+  color: #abb2c0;
 }
 .punctuation.definition.heading,
 .punctuation.definition.identity {
-  color: #1f51eb;
+  color: #61aeef;
 }
 .punctuation.definition.bold {
-  color: #a58a03;
+  color: #e5c17c;
   font-weight: bold;
 }
 .punctuation.definition.italic {
-  color: #a71cce;
+  color: #c679dd;
   font-style: italic;
 }
 .punctuation.section.embedded {
-  color: #b81332;
+  color: #be4f44;
 }
 .support.class {
-  color: #a58a03;
+  color: #e5c17c;
 }
 .support.function {
-  color: #0a8560;
+  color: #57b6c2;
 }
 .support.function.any-method {
-  color: #1f51eb;
+  color: #61aeef;
 }
 .entity.name.function {
-  color: #1f51eb;
+  color: #61aeef;
 }
 .entity.name.class,
 .entity.name.type.class {
-  color: #a58a03;
+  color: #e5c17c;
 }
 .entity.name.section {
-  color: #1f51eb;
+  color: #61aeef;
 }
 .entity.name.tag {
-  color: #bf1212;
+  color: #df6a73;
 }
 .entity.other.attribute-name {
-  color: #893a01;
+  color: #d29b67;
 }
 .entity.other.attribute-name.id {
-  color: #1f51eb;
+  color: #61aeef;
 }
 .meta.class {
-  color: #a58a03;
+  color: #e5c17c;
 }
 .meta.link {
-  color: #893a01;
+  color: #d29b67;
 }
 .meta.require {
-  color: #1f51eb;
+  color: #61aeef;
 }
 .meta.selector {
-  color: #a71cce;
+  color: #c679dd;
 }
 .meta.separator {
   background-color: #373b41;
-  color: #545454;
+  color: #abb2c0;
 }
 .meta.tag {
-  color: #545454;
+  color: #abb2c0;
 }
 .none {
-  color: #545454;
+  color: #abb2c0;
 }
 .markup.bold {
-  color: #893a01;
+  color: #d29b67;
   font-weight: bold;
 }
 .markup.changed {
-  color: #a71cce;
+  color: #c679dd;
 }
 .markup.deleted {
-  color: #bf1212;
+  color: #df6a73;
 }
 .markup.italic {
-  color: #a71cce;
+  color: #c679dd;
   font-style: italic;
 }
 .markup.heading .punctuation.definition.heading {
-  color: #1f51eb;
+  color: #61aeef;
 }
 .markup.inserted {
-  color: #428b1c;
+  color: #97c378;
 }
 .markup.list {
-  color: #bf1212;
+  color: #df6a73;
 }
 .markup.quote {
-  color: #893a01;
+  color: #d29b67;
 }
 .markup.raw.inline {
-  color: #428b1c;
+  color: #97c378;
 }
 .source.gfm .markup {
   -webkit-font-smoothing: auto;
 }
 .source.gfm .markup.heading {
-  color: #bf1212;
+  color: #df6a73;
 }
 .source.gfm .markup.link {
-  color: #1f51eb;
+  color: #c679dd;
 }
 .source.gfm .link .entity {
-  color: #0a8560;
+  color: #61aeef;
 }
 .ruby.symbol > .punctuation {
   color: inherit;
@@ -382,5 +385,8 @@ pre.editor-colors .fold-marker:after,
 <p><img src="sudo2.png"></p>
 <p>Now try re-running the program. The green LED should turn on.</p>
 <p>To close your program press Ctrl &amp; C into the terminal window. This will close the program and reset the GPIO pins so the green should go off.</p>
-<p>And that is it for worksheet 1!</p></body>
+<p>And that is it for worksheet 1!</p>
+<h3 id="challenge-">Challenge!</h3>
+<p>Make a modification to your code to have the program then sleep for 1 second, turn the LED off and then sleep for another second.</p>
+<p>To make python sleep / wait for 1 second you can use the sleep function which is: <code>sleep(seconds)</code> replacing seconds with the number of seconds you wish to sleep for.</p></body>
 </html>

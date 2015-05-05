@@ -105,3 +105,8 @@ Now try re-running the program. The green LED should turn on.
 To close your program press Ctrl & C into the terminal window. This will close the program and reset the GPIO pins so the green should go off.
 
 And that is it for worksheet 1!
+
+###Challenge!
+Make a modification to your code to have the program then sleep for 1 second, turn the LED off and then sleep for another second.
+
+To make python sleep / wait for 1 second you can use the sleep function which is: ```sleep(seconds)``` replacing seconds with the number of seconds you wish to sleep for.
