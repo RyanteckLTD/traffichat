@@ -1,4 +1,4 @@
-<img src = "logonobg.png"/>
+<img src = "../../../logonobg.png"/>
 
 #Why Geany
 The tutorials for the Traffichat based in python can come in two variants targeted to people who either use Idle or Geany to code them in.
