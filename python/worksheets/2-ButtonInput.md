@@ -38,6 +38,7 @@ By doing this the Pi pull's the GPIO line high (1) and then when we press the bu
 
 Here's a picture of what happens when you press the button.
 
+<img src = "scopebutton.png"/>
 
 To finish our button code we then need to add the line to wait for the button press.
 
@@ -78,3 +79,32 @@ Once it is pressed it will then turn off the Green LED.
 Now try running your code and then press the button.
 
 **The light will not actually turn off, instead it should go dimm.**
+
+By using an oscilioscope we can see what happens.
+
+<img src = "scope1.png"/>
+
+**The picture above is a snapshot of what happens when that program is running and I press the button. If we zoom in we can then see what is happening more clearly.**
+
+<img src = "scope2.png"/>
+
+**Due to there not being a delay after it turning off its then instantly turning it back on with the only delay being the time it takes for the Pi to run the code. **
+
+To fix this we need to just add one line after turning the green light off.
+
+Try adding a delay of 0.1 seconds after turning off the green light by adding undeneath it:
+```
+sleep(0.1)
+```
+
+And now re-run your program. Your light should turn off.
+
+Now in the code the light is still being turned on each time but as there is a longer delay of it being off our eyes see it as being turned off.
+
+Here's that same code on the oscilioscope again. This time zoomed in at the same level of the first picture.
+
+<img src = "scope3.png"/>
+
+As you can see they are just very little blips from where it is turning on.
+
+Congratulations you have successfully used the button!
