@@ -33,7 +33,7 @@ Each line here has been commented with what the line does. You don't need to cop
 ###Don't forget - Python is case sensitive!
 
 
-```
+```python
 import RPi.GPIO as IO #This imports the RPi.GPIO Library as IO
 
 from time import sleep # This imports only the sleep function from time.
