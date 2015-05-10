@@ -1,7 +1,7 @@
 
 <img src = "logonobg.png"/>
 
-#Beginners GPIO
+#Beginners GPIO - 1
 ##Blinking an LED
 
 This worksheet will guide you through turning an LED on and off using Python & the GPIO Pins on the Raspberry Pi.
@@ -12,7 +12,7 @@ Next confirm you are working on a blank file by checking the tab for this progra
 
 Begin by adding the following to the new file replacing ```Your Name Here``` with your name.
 
-```
+``` python
 #TrafficHAT - Blink LED
 #By Your Name Here
 ```
@@ -26,16 +26,16 @@ Confirm that the program is set to save in your home folder by clicking on the h
 
 Your comments should now appear in the colour red.
 
-Now we can continue on with the rest of the program. Copy out the following code.
+**Now we can continue on with the rest of the program. Copy out the following code.**
 
-Each line here has been commented with what the line does. You don't need to copy these as they are for you to understand what each line does.
+**Each line here has been commented with what the line does. You don't need to copy these as they are for you to understand what each line does.**
 
 ###Don't forget - Python is case sensitive!
 
 
 ```python
 import RPi.GPIO as IO #This imports the RPi.GPIO Library as IO
-
+import sys #This imports a library to handle errors.
 from time import sleep # This imports only the sleep function from time.
 
 #Next we need to setup the Raspberry Pi's GPIO Pins
