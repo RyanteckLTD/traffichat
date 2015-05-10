@@ -334,7 +334,7 @@ pre.editor-colors[mini] .scroll-view,
 }
 </style>
   </head>
-  <body class='markdown-preview'><p><img src="/home/ryan/traffichat/python/worksheets-idle/logonobg.png"></p>
+  <body class='markdown-preview'><p><img src="../logonobg.png"></p>
 <h1 id="beginners-gpio-2">Beginners GPIO - 2</h1>
 <h2 id="detecting-button-input">Detecting button input</h2>
 <p>In this worksheet we will instead use the button to turn on the LED when we press the button and off when we release the button.</p>
@@ -350,7 +350,7 @@ Underneath the line that says <code>IO.setup(green,IO.OUT)</code> you will need 
 <p>That last section of the setup for the input isn&#39;t always required for every add-on, the TrafficHAT requires it for it&#39;s button to work.</p>
 <p>By doing this the Pi pull&#39;s the GPIO line high (1) and then when we press the button it turns the GPIO line to low (0).</p>
 <p>Here&#39;s a picture of what happens when you press the button.</p>
-<p><img src="/home/ryan/traffichat/python/worksheets-idle/scopebutton.png"></p>
+<p><img src="../scopebutton.png"></p>
 <p>To finish our button code we then need to add the line to wait for the button press.</p>
 <p>Underneath the line <code>IO.output(green,1)</code> we then want to wait for the button to be pressed.</p>
 <p>Underneath this line add the following code:</p>
@@ -363,16 +363,16 @@ Your code section here should now look like this</p>
 <p>Now try running your code and then press the button.</p>
 <p><strong>The light will not actually turn off, instead it should go dimm.</strong></p>
 <p>By using an oscilioscope we can see what happens.</p>
-<p><img src="/home/ryan/traffichat/python/worksheets-idle/scope1.png"></p>
+<p><img src="../scope1.png"></p>
 <p><strong>The picture above is a snapshot of what happens when that program is running and I press the button. If we zoom in we can then see what is happening more clearly.</strong></p>
-<p><img src="/home/ryan/traffichat/python/worksheets-idle/scope2.png"></p>
+<p><img src="../scope2.png"></p>
 <p><strong>Due to there not being a delay after it turning off its then instantly turning it back on with the only delay being the time it takes for the Pi to run the code. </strong></p>
 <p>To fix this we need to just add one line after turning the green light off.</p>
 <p>Try adding a delay of 0.1 seconds after turning off the green light by adding undeneath it:</p>
 <pre class="editor-colors lang-text"><div class="line"><span class="text plain"><span class="meta paragraph text"><span>sleep(0.1)</span></span></span></div></pre><p>And now re-run your program. Your light should turn off.</p>
 <p>Now in the code the light is still being turned on each time but as there is a longer delay of it being off our eyes see it as being turned off.</p>
 <p>Here&#39;s that same code on the oscilioscope again. This time zoomed in at the same level of the first picture.</p>
-<p><img src="/home/ryan/traffichat/python/worksheets-idle/scope3.png"></p>
+<p><img src="../scope3.png"></p>
 <p>As you can see they are just very little blips from where it is turning on.</p>
 <p>Congratulations you have successfully used the button!</p></body>
 </html>
