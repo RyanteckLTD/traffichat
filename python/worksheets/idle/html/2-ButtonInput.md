@@ -68,7 +68,7 @@
 .markdown-preview span.float-right { display: block; margin-left: 13px; overflow: hidden; float: right; }
 .markdown-preview span.float-right > span { display: block; overflow: hidden; margin: 13px auto 0px; text-align: right; }
 .markdown-preview code, .markdown-preview tt { margin: 0px 2px; padding: 0px 5px; border: 1px solid rgb(234, 234, 234); border-radius: 3px; text-shadow: none; background-color: rgb(248, 248, 248); }
-.markdown-preview pre.editor-colors { font-size: 13px; line-height: 19px; overflow: auto; padding: 6px 10px; border-radius: 3px; border: 1px solid rgb(230, 230, 230); background: rgb(255, 255, 255); }
+.markdown-preview pre.editor-colors {font-size: 1em; font-family: 'Ubuntu Mono',monospace; line-height: 19px; overflow: auto; padding: 6px 10px; border-radius: 3px; border: 1px solid rgb(230, 230, 230); background: rgb(255, 255, 255); }
 .markdown-preview kbd { border-radius: 2px; border-width: 1px; border-style: solid; border-color: rgb(221, 221, 221) rgb(204, 204, 204) rgb(204, 204, 204) rgb(221, 221, 221); padding: 1px 4px; line-height: 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-image: linear-gradient(rgb(241, 241, 241), rgb(221, 221, 221)); background-color: rgb(221, 221, 221); background-repeat: repeat-x; }
 .markdown-preview .emoji { height: 20px; width: 20px; }
 .markdown-preview { font-size: 1.25em; color: rgb(87, 87, 87); background-color: rgb(255, 255, 255); }
