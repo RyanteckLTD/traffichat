@@ -1,9 +1,9 @@
-<img src = "../../../logonobg.png"/>
+<img src = "../../../../logonobg.png"/>
 
 #Why Geany
 The tutorials for the Traffichat based in python can come in two variants targeted to people who either use Idle or Geany to code them in.
 
-If you've not heard of Geany, Geany is an basic Intergrated Development Envrionment which is also open source.
+If you've not heard of Geany, Geany is a basic Integrated Development Environment which is also open source.
 It features some basics the same as Idle such as running the code with a click of a button, syntax highlighting and auto-completiton but also is slightly more featured in my view.
 
 Here's a quick Pro & Cons table of my views from using it in teaching.
@@ -16,7 +16,7 @@ Here's a quick Pro & Cons table of my views from using it in teaching.
 
 ###Downsides of using Geany
 * Requires installation
-* Doesn't require previously ran code to be quitted / killed before running the next.
+* Doesn't require previously ran program to be exited / killed before running the next.
 
 
 #How to install Geany
